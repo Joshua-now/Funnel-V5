@@ -1,4 +1,5 @@
-import { Phone, CheckCircle } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
+import CallbackForm from '../components/CallbackForm';
 
 export default function AfterHours() {
   return (
@@ -29,7 +30,11 @@ export default function AfterHours() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-4 justify-center mb-6">
+        <div className="mb-12">
+          <CallbackForm product="after-hours" agentName="Maya" />
+        </div>
+
+        <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
           <a
             href="https://links.fluidproductionsllc.com/widget/bookings/aiteammate"
             target="_blank"
@@ -39,22 +44,10 @@ export default function AfterHours() {
             Get Your Custom Demo
           </a>
           <a
-            href="https://links.fluidproductionsllc.com/widget/form/xxp1JxSmq67tnosCA3JG"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-blue-900 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-blue-800 transition-colors flex items-center justify-center space-x-2"
-          >
-            <Phone className="w-6 h-6" />
-            <span>Have AI Teammate Call You</span>
-          </a>
-        </div>
-
-        <div className="flex justify-center mb-12">
-          <a
             href="https://buy.stripe.com/6oUeV5eza7wW02ib3F2sM0i"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-600 text-white px-12 py-4 rounded-lg text-xl font-bold hover:bg-green-700 transition-colors text-center shadow-lg"
+            className="bg-green-600 text-white px-12 py-4 rounded-lg text-xl font-bold hover:bg-green-700 transition-colors text-center"
           >
             Buy Now
           </a>
