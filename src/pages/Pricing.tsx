@@ -30,7 +30,7 @@ export default function Pricing() {
 
             <div className="text-center mb-6">
               <div className="text-5xl font-bold text-gray-900 mb-2">
-                $297<span className="text-lg text-gray-500 font-normal">/mo</span>
+                $397<span className="text-lg text-gray-500 font-normal">/mo</span>
               </div>
               <div className="text-sm text-gray-500">$297 setup fee</div>
             </div>

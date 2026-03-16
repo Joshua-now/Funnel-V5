@@ -29,14 +29,6 @@ export default function CompleteCoverage() {
 
         <div className="flex flex-col md:flex-row gap-4 justify-center mb-6">
           <a
-            href="https://links.fluidproductionsllc.com/widget/bookings/aiteammate"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-orange-500 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-orange-600 transition-colors text-center"
-          >
-            Get Your Custom Demo
-          </a>
-          <a
             href="https://links.fluidproductionsllc.com/widget/form/Aud56k5Zq6uoCVHjNBKN"
             target="_blank"
             rel="noopener noreferrer"
