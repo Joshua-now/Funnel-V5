@@ -1,17 +1,22 @@
-import { Phone, CheckCircle } from 'lucide-react';
+import { Phone, CheckCircle, Shield } from 'lucide-react';
 
 export default function CompleteCoverage() {
   return (
-    <div className="bg-gray-50 py-16 px-4">
-      <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Complete Coverage System
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Full AI phone system handling all calls, 24/7/365. Your business never sleeps.
+    <div className="bg-gray-50">
+      <section className="bg-gradient-to-br from-blue-900 to-blue-800 text-white py-16 px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="bg-blue-100 w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <Shield className="w-12 h-12 text-blue-900" />
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Complete Coverage</h1>
+          <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+            Full AI phone system. Every call answered, qualified, and booked 24/7/365.
           </p>
         </div>
+      </section>
+
+    <div className="py-16 px-4">
+      <div className="max-w-5xl mx-auto">
 
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden mb-12">
           <div className="aspect-video">
@@ -91,6 +96,7 @@ export default function CompleteCoverage() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

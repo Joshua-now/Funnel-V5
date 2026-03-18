@@ -1,17 +1,22 @@
-import { Phone, CheckCircle } from 'lucide-react';
+import { Phone, CheckCircle, Zap } from 'lucide-react';
 
 export default function SpeedToLead() {
   return (
-    <div className="bg-gray-50 py-16 px-4">
-      <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Speed to Lead System
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            AI responds to ad leads in seconds, booking appointments while competitors are still thinking about calling back
+    <div className="bg-gray-50">
+      <section className="bg-gradient-to-br from-blue-900 to-blue-800 text-white py-16 px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="bg-orange-100 w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <Zap className="w-12 h-12 text-orange-500" />
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Speed to Lead</h1>
+          <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+            Respond to ad leads in seconds, not hours. Convert more while competitors sleep.
           </p>
         </div>
+      </section>
+
+    <div className="py-16 px-4">
+      <div className="max-w-5xl mx-auto">
 
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden mb-12">
           <div className="aspect-video bg-gray-900 flex items-center justify-center">
@@ -93,6 +98,7 @@ export default function SpeedToLead() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

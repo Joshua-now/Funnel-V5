@@ -9,6 +9,18 @@ import Terms from './pages/Terms';
 import Privacy from './pages/Privacy';
 
 function App() {
+  const hostname = window.location.hostname;
+
+  if (hostname === 'after-hours.aiteammate.io') {
+    return <Router><Layout><AfterHours /></Layout></Router>;
+  }
+  if (hostname === 'speed-to-lead.aiteammate.io') {
+    return <Router><Layout><SpeedToLead /></Layout></Router>;
+  }
+  if (hostname === 'complete-package.aiteammate.io') {
+    return <Router><Layout><CompleteCoverage /></Layout></Router>;
+  }
+
   return (
     <Router>
       <Layout>
