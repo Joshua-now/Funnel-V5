@@ -75,7 +75,7 @@ export default function Pricing() {
             </div>
 
             <a
-              href="https://buy.stripe.com/6oUeV5eza7wW02ib3F2sM0i"
+              href="https://buy.stripe.com/28E4graiUcRg6qG7Rt2sM0k"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full bg-blue-900 text-white py-4 rounded-lg text-center font-semibold hover:bg-blue-800 transition-colors"
