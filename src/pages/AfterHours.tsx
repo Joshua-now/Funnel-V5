@@ -48,7 +48,7 @@ export default function AfterHours() {
 
         <div className="flex justify-center mb-12">
           <a
-            href="https://buy.stripe.com/6oUeV5eza7wW02ib3F2sM0i"
+            href="https://buy.stripe.com/28E4graiUcRg6qG7Rt2sM0k"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-600 text-white px-12 py-4 rounded-lg text-xl font-bold hover:bg-green-700 transition-colors text-center shadow-lg"
